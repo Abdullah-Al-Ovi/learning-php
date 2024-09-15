@@ -30,6 +30,6 @@ echo $_GET["password"] . "<br>";
 
 <?php
 echo "{$_POST["username"]} <br>";
-$password = $_POST["password"];
+$password = $_POST["password"]; // Another way
 echo $password;
 ?>

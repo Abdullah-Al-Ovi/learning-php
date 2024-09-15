@@ -9,8 +9,8 @@
     // else{
     //     echo"You not are allowed";
     // }
-    $adult = false;
-    if($adult){
+    $adult = true;
+    if($adult){ 
         echo"You are allowed";
     }
     else{

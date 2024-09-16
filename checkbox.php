@@ -26,6 +26,7 @@
 </html>
 
 <?php
+
     if(isset($_POST["submit"])){
         if(isset($_POST["hobbies"]) && !empty($_POST["hobbies"])){
             echo "Your hobbies are: " . implode(", ",$_POST["hobbies"]);

@@ -1,6 +1,6 @@
 <?php
 
-
+include("header.php");
 // Variable and datatype:
 // $name = "Abdullah";
 // $age = 40;
@@ -29,5 +29,5 @@ $counter++;
 $counter += 1;
 echo $counter;
 
-
+include("footer.html")
 ?>

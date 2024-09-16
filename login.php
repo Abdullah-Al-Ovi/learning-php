@@ -27,7 +27,7 @@ session_start();
 if(isset($_POST["login"])){
     if(!empty($_POST["username"]) || !empty($_POST["password"])){
         $_SESSION["username"] = $_POST["username"];
-        $_SESSION["password"] = $_POST["password"];
+        $_SESSION["password"] = password_hash($_POST["password"],PASSWORD_DEFAULT);
         header("Location: logout.php");
     }
     else{
